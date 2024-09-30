@@ -9,4 +9,6 @@ def solve_math(number_1, number_2, operator):
         sum = number_1 * number_2
     elif operator == "/":
         sum = number_1 / number_2
+    elif operator == "^":
+        sum = number_1 ** number_2
     return sum
