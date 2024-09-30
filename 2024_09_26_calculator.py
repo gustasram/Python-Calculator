@@ -12,7 +12,7 @@ while True:
     if number == 'q':
         break
 
-    # Checking whether the number list has two numbers in it and then solves the equation
+    # If the number list has 2 numbers in it, the equation is solved
     if len(number_list) == 2:
         number = solve_math(number_list[0], number_list[1], math_sign)
         number_list = print_result(number, number_list, math_sign)
