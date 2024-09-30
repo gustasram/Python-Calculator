@@ -3,7 +3,7 @@
 def input_number():
     while True:
         user_input = input("Input a number (or 'q' to quit): ")
-        if user_input == 'q':
+        if user_input == 'q' or user_input == 'clear':
             return user_input
         try:
             user_number = int(user_input)

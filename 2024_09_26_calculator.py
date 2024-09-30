@@ -11,6 +11,9 @@ while True:
     number_list.append(number)
     if number == 'q':
         break
+    elif number == 'clear':
+        number_list = []
+        continue
 
     # If the number list has 2 numbers in it, the equation is solved
     if len(number_list) == 2:
@@ -21,3 +24,6 @@ while True:
     math_sign = input_math_symbol()
     if math_sign == 'q':
         break
+    elif math_sign == 'clear':
+        number_list = []
+        continue
